@@ -33,6 +33,9 @@ const PS1_PATH = path.join(__dirname, 'lib', 'apply-cursor.ps1');
 // ── App setup ─────────────────────────────────────────────────────────────────
 app.setAppUserModelId('eu.oudigital.mouse-pointer-settings');
 
+// Auto-start with Windows login (runs silently in the tray, no terminal needed)
+app.setLoginItemSettings({ openAtLogin: true });
+
 // Prevent the app from quitting when all windows are closed (tray app)
 app.on('window-all-closed', (e) => e.preventDefault());
 
