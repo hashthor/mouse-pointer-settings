@@ -26,6 +26,7 @@
 - **Live preview** — see your cursor design before applying
 - **One-click reset** — restore Windows default cursors at any time
 - **Remembers your last theme** — restores your settings on next launch
+- **Auto-starts with Windows** — registers itself at login so it's always in the tray
 - **Fully offline** — no network access, no telemetry, no accounts
 
 ---
